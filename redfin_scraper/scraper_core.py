@@ -59,7 +59,7 @@ class Scraper(object):
             # county_url.click()
             self.timeout(10)
             self.get_listings_for_each_county()
-            break
+            # break
         self.driver.back()
         self.timeout(10)
 
